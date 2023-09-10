@@ -1,9 +1,9 @@
 
-import Dashboard from "@/components/User/Dashboard";
-import Header from "@/components/User/Header";
+import Dashboard from "@/Components/User/Dashboard";
+import Header from "@/Components/User/Header";
 
-import Sidebar from "@/components/User/Sidebar";
-import { Credits, History, InstantTest, Profile, Settings } from "@/components/User/User";
+import Sidebar from "@/Components/User/Sidebar";
+import { Credits, History, InstantTest, Profile, Settings } from "@/Components/User/User";
 import { auth, db } from "@/db/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
