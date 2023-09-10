@@ -105,7 +105,7 @@ export const Content12 = () => {
           Tailored Solutions
         </h1>
         <p className="max-w-lg text-xl leading-relaxed">
-        Create a tool that helps practitioners adjust medication dosages based on the patient's age, gender, and constitution (Prakriti)
+        Create a tool that helps practitioners adjust medication dosages based on the patient&apos;s age, gender, and constitution (Prakriti)
         </p>
       </div>
       <div className="grid grid-cols-2 mt-5 gap-y-5 sm:gap-y-0 lg:mx-auto lg:max-w-6xl">
