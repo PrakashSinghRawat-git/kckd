@@ -1,44 +1,36 @@
 import Head from "next/head";
 import React from "react";
 // import img from "../../public/hero bg.png"
-import Image from 'next/image'
+import Image from "next/image";
 const Hero = () => {
   return (
     <>
       <Head>
-        {`
-            <style>
-                section{
+        <style>
+          {`section{
                     font-family: 'Abril Fatface', cursive;
                     font-family: 'Roboto', sans-serif;
+                    background: #003329 ;
                 }
-            </style>
             `}
+        </style>
       </Head>
-      <section className="relative py-10 sm:py-16 lg:py-24">
-        <Image
-          src="/hero-bg.png"
-          alt=""
-          width={844}
-          height={844}
-          className="absolute top-0 bottom-0 left-0 right-0 -z-40 w-full h-full"
-        />
+      <section className="relative py-10 sm:py-16 lg:py-24 z-40">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+          <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 text-white">
             <div>
               <h1 className="mt-4 text-4xl font-bold text-heading lg:mt-8 sm:text-6xl xl:text-8xl">
-              Don&apos;t just take our word for it,
-our results speak for themselves.
+                Don&apos;t just take our word for it, our results speak for
+                themselves.
               </h1>
               <p className="mt-4 text-base text-sub-heading lg:mt-8 sm:text-xl">
-                Find the test you like and the tests that are currently hits,
-                wherever and whenever you want
+              Discover the ancient wisdom of Ayurveda, guiding you to the remedies that resonate with your well-being, whenever and wherever you seek them.
               </p>
               <a
-                className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-purple-500 rounded-full lg:mt-16 hover:bg-purple-350 focus:bg-purple-500"
+                className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#28927d] rounded-full lg:mt-16 hover:bg-purple-350"
                 href="#"
               >
-                <span>Join for free </span>
+                <span>Start Rooting </span>
                 <span className="w-fit">
                   <svg
                     className="w-6 h-6 ml-8 -mr-2"
@@ -59,7 +51,7 @@ our results speak for themselves.
               <p className="mt-5 text-info">
                 <span>Already joined us? </span>
                 <a
-                  className=" transition-all text-blue-500 duration-200 hover:underline"
+                  className=" transition-all text-[#28927d] duration-200 hover:underline"
                   href="#"
                 >
                   Log in
@@ -67,9 +59,13 @@ our results speak for themselves.
               </p>
             </div>
             <div>
-              <Image className="w-full" src="/desktop person.png" alt=""
-          width={844}
-          height={844} />
+              <Image
+                className="w-full"
+                src="/desktop person.png"
+                alt=""
+                width={844}
+                height={844}
+              />
             </div>
           </div>
         </div>

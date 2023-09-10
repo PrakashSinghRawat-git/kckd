@@ -16,7 +16,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
   return (
     <>
       {/* <!-- Desktop sidebar --> */}
-      <aside className="max-sm:hidden z-20 overflow-y-auto bg-white shadow-xl border-r-2 h-screen">
+      <aside className="max-sm:hidden z-20 overflow-y-auto bg-gradient-to-b from-green-200 via-green-100 to-white shadow-xl border-r-2 h-screen">
         <div className="py-4 text-gray-500 dark:text-gray-400">
           <ul className="mt-6">
             <li className="relative px-6 py-3">
@@ -26,7 +26,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
               ></span>
               <Link
                 className="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-                href=""
+                href="/"
               >
                 <svg
                   className="w-5 h-5"
@@ -42,7 +42,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
                 </svg>
                 <span
                   className="ml-4"
-                  onClick={() => setSideNavActive("Dashboard")}
+                 
                 >
                   Dashboard
                 </span>
@@ -53,7 +53,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
             <li className="relative px-6 py-3">
               <Link
                 className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                href=""
+                href="/all-diseases"
               >
                 <svg
                   className="w-5 h-5"
@@ -67,60 +67,10 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
                 >
                   <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
                 </svg>
-                <span className="ml-4" onClick={()=>setSideNavActive("InstantTest")}>Instant Test</span>
+                <span className="ml-4">All Diseases</span>
               </Link>
             </li>
-            <li className="relative px-6 py-3">
-              <button
-                className="inline-flex items-center justify-between w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                onClick={toggleAutomationsMenu}
-                aria-haspopup="true"
-              >
-                <span className="inline-flex items-center">
-                  <svg
-                    className="w-5 h-5"
-                    aria-hidden="true"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
-                  </svg>
-                  <span className="ml-4">To Do List</span>
-                </span>
-                <svg
-                  className="w-4 h-4"
-                  aria-hidden="true"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-              {isAutomationMenuOpen && (
-                <ul
-                  className="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium text-gray-500 rounded-md shadow-inner bg-gray-50 dark:text-gray-400 dark:bg-gray-900"
-                  aria-label="submenu"
-                >
-                  <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                    <div className="w-full">Nothing to show</div>
-                  </li>
-                  {automations.length > 0 &&
-                    automations.map((item) => {
-                      <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                        <div className="w-full">Nothing to show</div>
-                      </li>;
-                    })}
-                </ul>
-              )}
-            </li>
+            
             <li className="relative px-6 py-3">
               <button
                 className="inline-flex items-center justify-between w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"

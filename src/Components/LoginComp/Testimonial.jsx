@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Testimonial5 = () => {
     return (
-      <div className="overflow-hidden bg-blue-900">
+      <div className="overflow-hidden ">
         <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
@@ -11,9 +11,9 @@ export const Testimonial5 = () => {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="flex h-auto">
-              <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
+              <div className="flex flex-col bg-white rounded-xl">
                 <div className="flex-auto p-4 md:p-6">
-                  <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                  <p className="text-base italic md:text-lg text-gray-800 ">
                   Working with SyracuseBookkeeping has been a game-changer for my small business. Their team is incredibly knowledgeable and always available to answer my questions. I highly recommend SyracuseBookkeeping to any small business owner who wants to take their financial management to the next leve
                   </p>
                 </div>
@@ -41,7 +41,7 @@ export const Testimonial5 = () => {
               <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
                   <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
-                  As a small business owner, I wear a lot of hats. Bookkeeping was always a struggle for me, and I worried that I was making costly mistakes. But since I started working with Testhouse, I&apos;ve been relax knowing that my finances are in good hands. Their team is professional, and always on top of the latest regulations and best practices.
+                  As a small business owner, I wear a lot of hats. Bookkeeping was always a struggle for me, and I worried that I was making costly mistakes. But since I started working with Vital Roots, I&apos;ve been relax knowing that my finances are in good hands. Their team is professional, and always on top of the latest regulations and best practices.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">

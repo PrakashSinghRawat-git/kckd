@@ -31,8 +31,8 @@ export const Content1 = () => {
 export const Content5 = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-12 px-4  text-gray-700">
-        <h2 className="font-extrabold text-center text-3xl tracking-tight text-slate-900 sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">
+      <div className="max-w-7xl mx-auto py-12 px-4  text-white">
+        <h2 className="font-extrabold text-center text-3xl  sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">
           Let&apos;s Talk About Solutions
         </h2>
         <div className="flex mt-5 flex-col lg:flex-row lg:max-w-6xl lg:mx-auto lg:mt-11 xl:items-center">
@@ -51,13 +51,12 @@ export const Content5 = () => {
                     1
                   </p>
                 </div>
-                <h1 className="font-extrabold text-xl text-slate-900 dark:text-slate-100">
-                  Bookkeeping Services
+                <h1 className="font-extrabold text-xl">
+                Ayurvedic Consultations
                 </h1>
               </div>
               <p className="mt-4">
-                Maintain accurate financial records. Reconcile bank accounts
-                regularly. Prepare and review financial statements.
+              Provide personalized health assessments based on Ayurvedic principles. Offer guidance on natural remedies and lifestyle adjustments. Keep detailed records of client progress and treatment plans.
               </p>
             </div>
             <div>
@@ -67,14 +66,12 @@ export const Content5 = () => {
                     2
                   </p>
                 </div>
-                <h1 className="font-extrabold text-xl text-slate-900 dark:text-slate-100">
-                  Tax Preparation Services
+                <h1 className="font-extrabold text-xl">
+                Herbal Medicine Formulation
                 </h1>
               </div>
               <p className="mt-4">
-                Calculate tax liabilities for individuals and businesses.
-                Prepare and file tax returns accurately and on time. Stay
-                up-to-date with the latest tax laws and regulations.
+              Create custom herbal blends tailored to individual health needs. Source high-quality Ayurvedic herbs and ingredients. Maintain stringent quality control to ensure the purity and efficacy of herbal remedies.
               </p>
             </div>
             <div>
@@ -84,13 +81,12 @@ export const Content5 = () => {
                     3
                   </p>
                 </div>
-                <h1 className="font-extrabold text-xl text-slate-900 dark:text-slate-100">
-                  Payroll Processing
+                <h1 className="font-extrabold text-xl">
+                Ayurvedic Wellness Retreats
                 </h1>
               </div>
               <p className="mt-4">
-                Process employee payroll efficiently and accurately. Calculate
-                and file payroll taxes. Prepare W-2s and 1099s for employees.
+              Organize rejuvenating wellness retreats inspired by Ayurvedic practices. Offer yoga, meditation, and Ayurvedic treatments in serene natural settings. Provide nutritious Ayurvedic meals and holistic wellness experiences.
               </p>
             </div>
           </div>
@@ -102,15 +98,14 @@ export const Content5 = () => {
 
 export const Content12 = () => {
   return (
-    <div className="py-11 ">
+    <div className="py-11 text-white">
       <div className="text-center flex flex-col gap-y-3 px-2 sm:mx-auto sm:max-w-xl ">
         {/* <p className="dark:text-gray-300">Get Started</p> */}
-        <h1 className="font-extrabold text-center text-3xl tracking-tight text-slate-900 dark:text-slate-100 sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">
+        <h1 className="font-extrabold text-center text-3xl tracking-tight  sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">
           Tailored Solutions
         </h1>
-        <p className="max-w-lg text-xl leading-relaxed text-gray-600">
-          we offer financial analysis services to help you gain valuable
-          insights into your business
+        <p className="max-w-lg text-xl leading-relaxed">
+        Create a tool that helps practitioners adjust medication dosages based on the patient's age, gender, and constitution (Prakriti)
         </p>
       </div>
       <div className="grid grid-cols-2 mt-5 gap-y-5 sm:gap-y-0 lg:mx-auto lg:max-w-6xl">
@@ -119,11 +114,11 @@ export const Content12 = () => {
             height="500"
             width="500"
             alt="alt"
-            className="w-full bg-gray-50"
+            className="w-full"
             src="/about.png"
           />
         </div>
-        <div className="col-span-2 px-3 pb-3 dark:border-slate-700 border-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:border-t lg:border-r">
+        <div className="col-span-2 px-3 pb-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:f-t lg:f-r">
           <h1 className="font-extrabold text-xl text-slate-900">Bookkeeping</h1>
           <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
             Our bookkeeping service provides comprehensive financial management
@@ -136,7 +131,7 @@ export const Content12 = () => {
             service, you can stay on top of your financial health.
           </p>
         </div>
-        <div className="col-span-2 px-3 pb-3 order-3 dark:border-slate-700 border-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:order-none sm:border-b lg:border-l">
+        <div className="col-span-2 px-3 pb-3 order-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:order-none sm:f-b lg:f-l">
           <h1 className="font-extrabold text-xl text-slate-900">
             Financial Analysis
           </h1>
@@ -156,7 +151,7 @@ export const Content12 = () => {
             height="500"
             width="500"
             alt="alt"
-            className="w-full bg-gray-50"
+            className="w-full"
             src="/desktop person.png"
           />
         </div>

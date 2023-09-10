@@ -3,12 +3,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import Head from "next/head";
 import Image from 'next/image'
+// import "../../../public/assets"
 const images = [
-    'https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU',
-    'https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68',
-    'https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68',
-    'https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68',
-    'https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68',
+    '/assets/bg1.avif',
+    '/assets/bg2.jpg',
+    '/assets/bg3.jpg',
+    '/assets/bg4.jpg',
+    
     
   ];
   
@@ -25,7 +26,7 @@ const CarouselComp = () => {
 }
 
                     .carousel .slide img {
-                        max-height: 400px;
+                        max-height: 800px;
                     width: auto;
 }`}
         </style>
@@ -36,7 +37,7 @@ const CarouselComp = () => {
         showArrows={true}
         autoPlay={true}
         swipeable={true}
-        interval={4000}
+        interval={1000}
         infiniteLoop={true}
         swipeScrollTolerance={50}
         preventMovementUntilSwipeScrollTolerance={true}
@@ -45,13 +46,14 @@ const CarouselComp = () => {
         thumbWidth={150}
         showThumbs={false}
         centerMode={true}
+        
       >
         {images ? (
           images.map((image, index) => {
             return (
               <div key={index}>
                 {" "}
-                <Image src={image} width={944} height={944} className="rounded object-cover" />
+                <Image src={image} width={944} height={944} className=" object-cover" />
               </div>
             );
           })

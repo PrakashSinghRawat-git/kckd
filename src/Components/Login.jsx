@@ -11,15 +11,54 @@ import { Cta3 } from './LoginComp/Cta'
 import { Pricing8 } from './LoginComp/Pricing'
 import { Faq4 } from './LoginComp/Faq'
 import { Footer6 } from './LoginComp/Footer'
+import { useRouter } from 'next/router'
+import  { useEffect } from 'react'
+import { GoogleAuthProvider, signInWithPopup } from "@firebase/auth";
+import { auth, db } from '@/db/firebase';
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import Parallax from './LoginComp/Parallax'
 
-const Login = ({handleLogin}) => {
+const Login = () => {
+
+  const router = useRouter()
+
+  const handleLogin = async () => {
+      const provider = new GoogleAuthProvider();
+      try {
+        const result = await signInWithPopup(auth, provider);
+        const { displayName, photoURL, uid } = result.user;
+          
+        console.log(result.user)
+        // Store user's name and photo in Firestore
+        await setDoc(doc(db, "users", uid), {
+          displayName, photoURL, uid
+        })
+
+        router.push("/")
+
+      } catch (error) {
+        console.error('Error logging in:', error);
+      }
+    };
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        router.push("/");
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
+
   return (
     <>
       <Navigation handleLogin={handleLogin} />
+      <Parallax/>
       <Hero />
-      <TabNavigation handleLogin={handleLogin}/>
+      
       <CarouselComp />
-      <Content1 />
+     
       <About />
       <Content5 />
       <Content12 />
@@ -35,7 +74,7 @@ const Login = ({handleLogin}) => {
       </p>
       <Testimonial5 />
       <Cta3 />
-      <Pricing8 />
+      {/* <Pricing8 /> */}
       <Faq4 />
       <Footer6 />
     </>

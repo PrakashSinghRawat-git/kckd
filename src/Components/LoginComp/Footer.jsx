@@ -4,17 +4,17 @@ export const Footer6 = () => {
     return (
       <>
         <footer>
-          <div className="py-6 bg-primary">
+          <div className="py-6 bg-green-500">
             <div className="px-4 mx-auto max-w-7xl md:px-8">
               <div className="flex flex-col md:flex-row justify-between items-center gap-2">
                 <div className="text-center md:text-left mb-3 md:mb-0">
                   <span className="text-gray-100 font-bold uppercase tracking-widest">
                     Newsletter
                   </span>
-                  <p className="text-indigo-200">Subscribe to our newsletter</p>
+                  <p className="text-white">Subscribe to our newsletter</p>
                 </div>
                 <form className="w-full md:max-w-md flex gap-2">
-                  <input className="w-full flex-1 text-white border border-white focus:ring rounded outline-none transition duration-100 px-3 py-2 bg-primary-400 ring-primary-300" />
+                  <input className="w-full flex-1 text-black border border-white focus:ring rounded outline-none transition duration-100 px-3 py-2" />
                   <button className="inline-block bg-white hover:bg-gray-100 focus-visible:ring ring-indigo-300 active:text-indigo-600 text-sm font-semibold text-center rounded outline-none transition duration-100 px-8 py-2 text-primary md:text-base">
                     Send
                   </button>
@@ -46,7 +46,7 @@ export const Footer6 = () => {
                           </svg>
                         </div>
                       </span>
-                      <span> Testhouse</span>
+                      <span> Vital Roots</span>
                     </Link>
                   </div>
                   <p className="text-gray-500 sm:pr-8 mb-6">
