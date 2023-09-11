@@ -19,7 +19,7 @@ const About = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-              <Image className="w-full" src="/about.png" width={944} height={944} />
+              <Image alt='' className="w-full" src="/about.png" width={944} height={944} />
             </div>
             <div>
               <h1 className="mt-4 text-4xl font-bold text-heading lg:mt-8 sm:text-6xl xl:text-8xl text-white">

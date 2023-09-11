@@ -53,7 +53,7 @@ const CarouselComp = () => {
             return (
               <div key={index}>
                 {" "}
-                <Image src={image} width={944} height={944} className=" object-cover" />
+                <Image alt="" src={image} width={944} height={944} className=" object-cover" />
               </div>
             );
           })

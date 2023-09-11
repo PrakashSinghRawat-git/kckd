@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 
 const Parallax = () => {
@@ -127,17 +128,17 @@ const Parallax = () => {
       </Head>
 
       <section className="parallax">
-        <img src="/parallax/hill1.png" ref={hill1Ref} alt={1} />
-        <img src="/parallax/hill2.png" alt={2} />
-        <img src="/parallax/hill3.png" alt={3} />
-        <img src="/parallax/hill4.png" ref={hill4Ref} alt={4} />
-        <img src="/parallax/hill5.png" ref={hill5Ref} alt={5} />
-        <img src="/parallax/tree.png" alt={6} />
+        <Image height={700} width={900} src="/parallax/hill1.png" ref={hill1Ref} alt={1} />
+        <Image height={700} width={900} src="/parallax/hill2.png" alt={2} />
+        <Image height={700} width={900} src="/parallax/hill3.png" alt={3} />
+        <Image height={700} width={900} src="/parallax/hill4.png" ref={hill4Ref} alt={4} />
+        <Image height={700} width={900} src="/parallax/hill5.png" ref={hill5Ref} alt={5} />
+        <Image height={700} width={900} src="/parallax/tree.png" alt={6} />
         <h2 id="text" ref={textRef}>
           Vital Roots
         </h2>
-        <img src="/parallax/leaf.png" id="leaf" ref={leafRef} alt={7} />
-        <img src="/parallax/plant.png" id="hills" alt={8} />
+        <Image height={700} width={900} src="/parallax/leaf.png" id="leaf" ref={leafRef} alt={7} />
+        <Image height={700} width={900} src="/parallax/plant.png" id="hills" alt={8} />
       </section>
       <section className="sec">
         <h2>Vital Roots</h2>

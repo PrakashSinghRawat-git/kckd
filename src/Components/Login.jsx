@@ -49,7 +49,7 @@ const Login = () => {
     });
 
     return () => unsubscribe();
-  }, []);
+  }, [router]);
 
   return (
     <>
@@ -66,7 +66,7 @@ const Login = () => {
       <Content12 />
       <Step2 />
       <p className="mx-8 my-16 max-w-full text-xl leading-relaxed text-white">
-      Throughout your experience with us, our commitment is to offer a seamless and user-friendly digital platform that empowers you to make well-informed decisions regarding Ayurvedic medicine analysis. Your success is paramount to us, and our team of experts is wholeheartedly dedicated to ensuring your utmost satisfaction. If you're prepared to simplify your Ayurvedic practice and gain invaluable insights into medicinal analysis, we invite you to take the next step. Whether you choose to book a free consultation or sign up for a complimentary month of our services, we're eager to show you the convenience and effectiveness of our tailored solution. Get ready to embark on a journey of enhanced efficiency and precision in Ayurvedic medicine analysis.
+      Throughout your experience with us, our commitment is to offer a seamless and user-friendly digital platform that empowers you to make well-informed decisions regarding Ayurvedic medicine analysis. Your success is paramount to us, and our team of experts is wholeheartedly dedicated to ensuring your utmost satisfaction. If you&apos;re prepared to simplify your Ayurvedic practice and gain invaluable insights into medicinal analysis, we invite you to take the next step. Whether you choose to book a free consultation or sign up for a complimentary month of our services, we&apos;re eager to show you the convenience and effectiveness of our tailored solution. Get ready to embark on a journey of enhanced efficiency and precision in Ayurvedic medicine analysis.
       </p>
       <Testimonial5 />
       <Cta3 />
