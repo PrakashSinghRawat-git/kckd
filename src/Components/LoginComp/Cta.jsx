@@ -12,7 +12,7 @@ export const Cta3 = () => {
                   src="https://images.unsplash.com/photo-1604076913837-52ab5629fba9?auto=format&q=75&fit=crop&w=750"
                 />
               </div>
-              <div className="w-full flex items-center p-4 dark:bg-slate-900 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
+              <div className="w-full flex items-center p-4 dark2bg-slate-900 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
                 <div className="w-full flex sm:block flex-col items-center">
                   <div className="mb-4 sm:mb-8">
                     <h2 className="text-xl font-bold text-center text-primary sm:text-2xl sm:text-left lg:text-3xl">
@@ -23,7 +23,7 @@ export const Cta3 = () => {
                     </p>
                   </div>
                   <form className="w-full max-w-md flex gap-2 mb-3 sm:mb-5">
-                    <input className="w-full flex-1 bg-gray-white placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 outline-none transition duration-100 px-3 py-2 rounded-global dark:text-black" />
+                    <input className="w-full flex-1 bg-gray-white placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 outline-none transition duration-100 px-3 py-2 rounded-global dark2text-black" />
                     <button className="inline-block hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-sm font-semibold text-center outline-none transition duration-100 px-8 py-2 text-white bg-indigo-500 rounded-global md:text-base">
                       Send
                     </button>

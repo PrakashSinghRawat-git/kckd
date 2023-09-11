@@ -36,10 +36,10 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <div className="bg-gradient-to-b from-green-200 via-green-100 to-white">
+    <div className="text-white">
       <Header photoUrl={user.photoURL} />
       <div
-        className="bg-gradient-to-b from-green-200 via-green-100 to-white h-screen pt-[75px] p-8 grid grid-cols-[3fr,9fr] gap-4 overflow-hidden"
+        className="h-screen pt-[75px] p-8 grid grid-cols-[3fr,9fr] gap-4 overflow-hidden"
         style={{ height: "calc(100vh)" }}
       >
         {/* Left Column */}

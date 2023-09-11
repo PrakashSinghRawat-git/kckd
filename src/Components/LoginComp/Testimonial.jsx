@@ -17,7 +17,7 @@ export const Testimonial5 = () => {
                   My experience with AyurMediPro has been truly transformative for my Ayurvedic practice. Their dedicated team possesses unparalleled knowledge and is always accessible to address my queries. I wholeheartedly recommend AyurMediPro to any practitioner seeking to elevate their Ayurvedic medicine analysis to new heights.
                   </p>
                 </div>
-                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark2bg-slate-700">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <Image height="50" width="50" alt="alt" 
@@ -26,10 +26,10 @@ export const Testimonial5 = () => {
                       />
                     </div>
                     <div className="grow ml-3">
-                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark2text-gray-200">
                       Dr. Rajesh Gupta
                       </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">
+                      <p className="text-xs text-gray-500 dark2text-gray-400">
                       Ayurvedic Practitioner | AyurVeda Wellness
                       </p>
                     </div>
@@ -38,13 +38,13 @@ export const Testimonial5 = () => {
               </div>
             </div>
             <div className="flex h-auto">
-              <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
+              <div className="flex flex-col bg-white rounded-xl dark2bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
-                  <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                  <p className="text-base italic md:text-lg text-gray-800 dark2text-gray-200">
                   Balancing the various aspects of my Ayurvedic practice can be a daunting task. Medicinal analysis used to be a significant challenge, and I worried about potential inaccuracies. However, ever since I partnered with AyurMediPro, I&apos;ve been able to relax, knowing that my medicine analysis is in capable hands. Their team maintains the highest level of professionalism and is constantly updated on the latest Ayurvedic practices and regulations.
                   </p>
                 </div>
-                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark2bg-slate-700">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <Image height="50" width="50" alt="alt" 
@@ -53,10 +53,10 @@ export const Testimonial5 = () => {
                       />
                     </div>
                     <div className="grow ml-3">
-                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark2text-gray-200">
                       Priya Patel
                       </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">
+                      <p className="text-xs text-gray-500 dark2text-gray-400">
                       Owner | Prana Ayurveda Center
                       </p>
                     </div>
@@ -65,13 +65,13 @@ export const Testimonial5 = () => {
               </div>
             </div>
             <div className="flex h-auto">
-              <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
+              <div className="flex flex-col bg-white rounded-xl dark2bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
-                  <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                  <p className="text-base italic md:text-lg text-gray-800 dark2text-gray-200">
                   The arrival of tax season would often fill me with dread as I faced the daunting task of organizing my Ayurvedic medicine records. However, AyurMediPro has transformed this annual ordeal into a smooth and effortless process. They meticulously maintain my medicinal records, ensuring that everything is in perfect order. Moreover, their insightful analysis services have not only streamlined my practice but have also uncovered new opportunities for growth and enhancement.
                   </p>
                 </div>
-                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark2bg-slate-700">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <Image height="50" width="50" alt="alt" 
@@ -80,10 +80,10 @@ export const Testimonial5 = () => {
                       />
                     </div>
                     <div className="grow ml-3">
-                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                      <p className="text-sm sm:text-base font-semibold text-gray-800 dark2text-gray-200">
                       Virendra Singh
                       </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">
+                      <p className="text-xs text-gray-500 dark2text-gray-400">
                       Ayurvedic Healer | Wellness Harmony Clinic
                       </p>
                     </div>

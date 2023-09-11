@@ -3,25 +3,25 @@ export const Pricing8 = () => {
     return (
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
-          <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-gray-200">
+          <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold dark2text-gray-200">
             Solo, agency or team? We’ve got you covered.
           </h2>
         </div>
         <div className="relative xl:w-10/12 xl:mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             <div>
-              <div className="p-4 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-gray-200">
+              <div className="p-4 relative z-10 bg-white border rounded-xl md:p-10 dark2bg-slate-900 dark2border-gray-700">
+                <h3 className="text-xl font-bold text-gray-800 dark2text-gray-200">
                   Professional
                 </h3>
                 <p className="text-sm text-gray-500">
                   Everything a small team needs.
                 </p>
                 <div className="mt-5">
-                  <span className="text-6xl font-bold text-gray-800 dark:text-gray-200">
+                  <span className="text-6xl font-bold text-gray-800 dark2text-gray-200">
                     $18
                   </span>
-                  <span className="text-lg font-bold text-gray-800 dark:text-gray-200">
+                  <span className="text-lg font-bold text-gray-800 dark2text-gray-200">
                     .00
                   </span>
                   <span className="ml-3 text-gray-500">USD / monthly</span>
@@ -49,7 +49,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Up to 10 people
                       </span>
                     </li>
@@ -74,7 +74,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Collect data
                       </span>
                     </li>
@@ -99,7 +99,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Code extensibility
                       </span>
                     </li>
@@ -124,7 +124,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Custom reports
                       </span>
                     </li>
@@ -147,7 +147,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Product support
                       </span>
                     </li>
@@ -170,7 +170,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Activity reporting
                       </span>
                     </li>
@@ -182,7 +182,7 @@ export const Pricing8 = () => {
                     <p className="text-sm text-gray-500">No card required.</p>
                   </div>
                   <div className="flex justify-end">
-                    <button className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">
+                    <button className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark2bg-slate-900 dark2hover:bg-slate-800 dark2border-gray-700 dark2text-gray-400 dark2hover:text-white dark2focus:ring-offset-gray-800">
                       Start free trial
                     </button>
                   </div>
@@ -190,19 +190,19 @@ export const Pricing8 = () => {
               </div>
             </div>
             <div>
-              <div className="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-gray-200">
+              <div className="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark2bg-slate-900 dark2border-gray-700 dark2shadow-gray-900/[.2]">
+                <h3 className="text-xl font-bold text-gray-800 dark2text-gray-200">
                   Teams
                 </h3>
                 <p className="text-sm text-gray-500">For growing businesses.</p>
-                <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
+                <span className="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark2bg-gray-900">
                   Most popular
                 </span>
                 <div className="mt-5">
-                  <span className="text-6xl font-bold text-gray-800 dark:text-gray-200">
+                  <span className="text-6xl font-bold text-gray-800 dark2text-gray-200">
                     $36
                   </span>
-                  <span className="text-lg font-bold text-gray-800 dark:text-gray-200">
+                  <span className="text-lg font-bold text-gray-800 dark2text-gray-200">
                     .99
                   </span>
                   <span className="ml-3 text-gray-500">USD / monthly</span>
@@ -230,7 +230,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Up to 10 people
                       </span>
                     </li>
@@ -255,7 +255,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Collect data
                       </span>
                     </li>
@@ -280,7 +280,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Code extensibility
                       </span>
                     </li>
@@ -307,7 +307,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Custom reports
                       </span>
                     </li>
@@ -332,7 +332,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Product support
                       </span>
                     </li>
@@ -357,7 +357,7 @@ export const Pricing8 = () => {
                             fill="currentColor"></path>
                         </svg>
                       </span>
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span className="text-gray-800 dark2text-gray-200">
                         Activity reporting
                       </span>
                     </li>
@@ -369,7 +369,7 @@ export const Pricing8 = () => {
                     <p className="text-sm text-gray-500">No card required.</p>
                   </div>
                   <div className="flex justify-end">
-                    <button className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+                    <button className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark2focus:ring-offset-gray-800">
                       Start free trial
                     </button>
                   </div>

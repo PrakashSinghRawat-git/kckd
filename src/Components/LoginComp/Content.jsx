@@ -8,7 +8,7 @@ export const Content1 = () => {
       <div className="py-10">
         <div className="container mx-auto px-4">
           <div className="md:w-5/6 md:mx-auto md:max-w-2xl">
-            <h1 className="text-black text-3xl text-center font-bold dark:text-white sm:text-4xl">
+            <h1 className="text-black text-3xl text-center font-bold dark2text-white sm:text-4xl">
               Blog
             </h1>
             <p className="text-center text-lg mt-2">
@@ -100,7 +100,7 @@ export const Content12 = () => {
   return (
     <div className="py-11 text-white">
       <div className="text-center flex flex-col gap-y-3 px-2 sm:mx-auto sm:max-w-xl ">
-        {/* <p className="dark:text-gray-300">Get Started</p> */}
+        {/* <p className="dark2text-gray-300">Get Started</p> */}
         <h1 className="font-extrabold text-center text-3xl tracking-tight  sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">
           Tailored Solutions
         </h1>
@@ -118,13 +118,13 @@ export const Content12 = () => {
             src="/about.png"
           />
         </div>
-        <div className="col-span-2 px-3 pb-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:f-t lg:f-r">
+        <div className="col-span-2 px-3 pb-3 dark2f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:f-t lg:f-r">
           <h1 className="font-extrabold text-xl">Ayurvedic Medicine Finde</h1>
           <p className="max-w-lg mt-3 text-xl leading-relaxed md:mt-8">
           Our Ayurvedic Medicine Finder is your key to unlocking personalized treatment solutions. Designed for practitioners and patients alike, our platform harnesses the wisdom of Ayurveda to provide tailored medicine recommendations based on your unique symptoms. Say goodbye to the guesswork and discover precise Ayurvedic remedies crafted just for you. Experience holistic healing, one symptom at a time.
           </p>
         </div>
-        <div className="col-span-2 px-3 pb-3 order-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:order-none sm:f-b lg:f-l">
+        <div className="col-span-2 px-3 pb-3 order-3 dark2f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:order-none sm:f-b lg:f-l">
           <h1 className="font-extrabold text-xl">
           Ayurvedic Health Insights
           </h1>

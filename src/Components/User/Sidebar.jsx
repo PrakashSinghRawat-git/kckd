@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
-  const [isPagesMenuOpen, setPagesMenuOpen] = useState(false);
+  const [isPagesMenuOpen, setPagesMenuOpen] = useState(true);
   const [isAutomationMenuOpen, setAutomationMenuOpen] = useState(true);
   const automations = [];
   const togglePagesMenu = () => {
@@ -16,16 +16,16 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
   return (
     <>
       {/* <!-- Desktop sidebar --> */}
-      <aside className="max-sm:hidden z-20 overflow-y-auto bg-gradient-to-b from-green-200 via-green-100 to-white shadow-xl border-r-2 h-screen">
-        <div className="py-4 text-gray-500 dark:text-gray-400">
+      <aside className="max-sm:hidden z-20 overflow-y-auto text-white bg-[#025a486c] shadow-xl border-[#025a4893] border-r-2 h-screen">
+        <div className="py-4 -500 ">
           <ul className="mt-6">
             <li className="relative px-6 py-3">
               <span
-                className="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
+                className="absolute inset-y-0 left-0 w-1 bg-white rounded-tr-lg rounded-br-lg"
                 aria-hidden="true"
               ></span>
               <Link
-                className="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
+                className="inline-flex items-center w-full text-sm font-semibold -800 transition-colors duration-150 hover:-800 dark2hover:-200 dark2-100"
                 href="/"
               >
                 <svg
@@ -52,7 +52,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
           <ul>
             <li className="relative px-6 py-3">
               <Link
-                className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:-800 dark2hover:-200"
                 href="/all-diseases"
               >
                 <svg
@@ -70,10 +70,30 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
                 <span className="ml-4">All Diseases</span>
               </Link>
             </li>
+            <li className="relative px-6 py-3">
+              <Link
+                className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:-800 dark2hover:-200"
+                href="/charts"
+              >
+                <svg
+                  className="w-5 h-5"
+                  aria-hidden="true"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                </svg>
+                <span className="ml-4">Charts</span>
+              </Link>
+            </li>
             
             <li className="relative px-6 py-3">
               <button
-                className="inline-flex items-center justify-between w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                className="inline-flex items-center justify-between w-full text-sm font-semibold transition-colors duration-150 hover:-800 dark2hover:-200"
                 onClick={togglePagesMenu}
                 aria-haspopup="true"
               >
@@ -107,42 +127,26 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
               </button>
               {isPagesMenuOpen && (
                 <ul
-                  className="p-2 mt-2 space-y-2 overflow-hidden text-sm font-medium text-gray-500 rounded-md shadow-inner bg-gray-50 dark:text-gray-400 dark:bg-gray-900"
+                  className="p-2 bg-[#247e6c59] mt-2 space-y-2 overflow-hidden text-sm font-medium  rounded-md shadow-inner  dark2-400 dark2bg-gray-900"
                   aria-label="submenu"
                 >
-                  <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                    <div
+                  <li className="px-2 py-1 transition-colors duration-150 hover:-800 dark2hover:-200">
+                    <Link
                       className="w-full cursor-pointer"
-                      onClick={() => setSideNavActive("Profile")}
+                      href={`/profile`}
                     >
                       Profile
-                    </div>
+                    </Link>
                   </li>
-                  <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                    <div
+                  <li className="px-2 py-1 transition-colors duration-150 hover:-800 dark2hover:-200">
+                    <Link
                       className="w-full cursor-pointer"
-                      onClick={() => setSideNavActive("History")}
-                    >
-                      History
-                    </div>
-                  </li>
-                  <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                    <div
-                      className="w-full cursor-pointer"
-                      onClick={() => setSideNavActive("Credits")}
-                    >
-                      My Credits
-                    </div>
-                  </li>
-                  <li className="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
-                    <div
-                      className="w-full cursor-pointer"
-                      onClick={() => setSideNavActive("Settings")}
+                      href={`/user-settings`}
                     >
                       Settings
-                    </div>
+                    </Link>
                   </li>
-                  <li className="cursor-pointer px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200">
+                  <li className="cursor-pointer px-2 py-1 transition-colors duration-150 hover:-800 dark2hover:-200">
                     <div onClick={()=>auth.signOut()} className="w-full">
                       Logout
                     </div>
@@ -152,8 +156,8 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
             </li>
           </ul>
           <div className="px-6 my-6">
-            <button className="flex items-center justify-between w-full px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple capitalize">
-              Choose your test
+            <button className="flex items-center justify-between w-full px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-[#247e6c59] border border-transparent rounded-lg active:bg-[#247e6c59] hover:bg-[#247e6c59] focus:outline-none focus:shadow-outline-purple capitalize">
+              Choose your Disease
               <span className="ml-2" aria-hidden="true">
                 +
               </span>

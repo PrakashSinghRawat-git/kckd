@@ -31,8 +31,8 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
   
   
   return (
-    <header className="fixed z-10 w-full container mx-auto py-4 bg-gradient-to-b from-green-200 via-green-200 to-green-200 shadow-md">
-      <div className="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
+    <header className="bg-[#025a486c] fixed z-10 w-full container mx-auto py-4 shadow-md">
+      <div className="container flex items-center justify-between h-full px-6 mx-auto  dark2text-purple-300 text-white">
         <div className="text-xl">Vital Roots</div>
         {/* <!-- Mobile hamburger --> */}
         <button
@@ -55,7 +55,7 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
         </button>
         {/* <!-- Search input --> */}
         <div className="flex justify-center flex-1 lg:mr-32 ">
-          <div className="relative w-full max-w-xl mr-6 focus-within:text-purple-500 h-12 p-1">
+          <div className="relative w-full max-w-xl text-gray-400 mr-6 focus-within:text-gray-500 h-12 p-1">
             <div className="absolute inset-y-0 flex items-center pl-2">
               <svg
                 className="w-4 h-4"
@@ -71,7 +71,7 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
               </svg>
             </div>
             <input
-              className="w-full h-full pl-8 pr-2 text-sm text-gray-700 placeholder-gray-600 bg-gray-100 border-0 rounded-md dark:placeholder-gray-500 dark:focus:shadow-outline-gray dark:focus:placeholder-gray-600 dark:bg-gray-700 dark:text-gray-200 focus:placeholder-gray-500 focus:bg-white focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input"
+              className="w-full h-full pl-8 pr-2 text-sm text-gray-700 placeholder-gray-600 bg-gray-100 border-0 rounded-md dark2placeholder-gray-500 dark2focus:shadow-outline-gray dark2focus:placeholder-gray-600 dark2bg-gray-700 dark2text-gray-200 focus:placeholder-gray-500 focus:bg-white focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input"
               type="text"
               placeholder="Search for Test seies or Tests"
               aria-label="Search"
@@ -116,36 +116,36 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
               {/* <!-- Notification badge --> */}
               <span
                 aria-hidden="true"
-                className="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full dark:border-gray-800"
+                className="absolute top-0 right-0 inline-block w-3 h-3 transform translate-x-1 -translate-y-1 bg-red-600 border-2 border-white rounded-full dark2border-gray-800"
               ></span>
             </button>
             {isNotificationsMenuOpen && (
-              <ul className="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark:text-gray-300 dark:border-gray-700 dark:bg-gray-700">
+              <ul className="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark2text-gray-300 dark2border-gray-700 dark2bg-gray-700">
                 <li className="flex">
                   <a
-                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href="#"
                   >
                     <span>Messages</span>
-                    <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-600 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-600">
+                    <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-600 bg-red-100 rounded-full dark2text-red-100 dark2bg-red-600">
                       13
                     </span>
                   </a>
                 </li>
                 <li className="flex">
                   <a
-                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href="#"
                   >
                     <span>Sales</span>
-                    <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-600 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-600">
+                    <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-600 bg-red-100 rounded-full dark2text-red-100 dark2bg-red-600">
                       2
                     </span>
                   </a>
                 </li>
                 <li className="flex">
                   <a
-                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center justify-between w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href="#"
                   >
                     <span>Alerts</span>
@@ -183,12 +183,12 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
             </button>
             {isProfileMenuOpen && (
               <ul
-                className="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark:border-gray-700 dark:text-gray-300 dark:bg-gray-700"
+                className="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark2border-gray-700 dark2text-gray-300 dark2bg-gray-700"
                 aria-label="submenu"
               >
                 <li className="flex">
                   <Link
-                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href=""
                   >
                     <svg
@@ -208,7 +208,7 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
                 </li>
                 <li className="flex">
                   <a
-                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href="#"
                   >
                     <svg
@@ -229,7 +229,7 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
                 </li>
                 <li className="flex">
                   <Link
-                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+                    className="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark2hover:bg-gray-800 dark2hover:text-gray-200"
                     href=""
                   >
                     <svg

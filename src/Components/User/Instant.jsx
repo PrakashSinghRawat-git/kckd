@@ -16,17 +16,16 @@ import Link from "next/link";
     return (
       <div className="container mx-auto py-4 flex flex-col items-center justify-between">
         <div className="w-[85%] text-start mb-4">
-          <h1 className="text-2xl font-bold mb-4">Popular Exams</h1>
+          <h1 className="text-2xl font-bold mb-4">Ayurvedic Healing for Common Ailments</h1>
           <p>
-            Get exam-ready with concepts, questions and study notes as per the
-            latest pattern
+          Nature's pharmacy holds the key to healing. Ayurveda illuminates the path to wellness, one holistic remedy at a time
           </p>
         </div>
   
         <div className="mt-4 w-[90%] grid grid-cols-2 gap-3 justify-center items-center">
           {diseaseCategory &&
             diseaseCategory.map((category, index) => (
-              <BulletCard key={index} title={category} image={`/hero.png`} />
+              <BulletCard key={index} title={category} image={`/assets/ayurveda2.png`} />
             ))}
         </div>
       </div>
@@ -52,15 +51,15 @@ import Link from "next/link";
         <Link
           href={`category/${title}`}
           id="card"
-          className="card rounded-lg overflow-hidden shadow-md bg-white hover:shadow-lg transition duration-300 ease-in-out flex justify-between items-center cursor-pointer hover:scale-110 p-4 w-full"
+          className="card rounded-lg overflow-hidden shadow-md bg-[#247e6c59] hover:shadow-lg transition duration-300 ease-in-out flex justify-between items-center cursor-pointer hover:scale-110 p-4 w-full"
         >
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <Image
               src={image}
               alt={title}
               height={44}
               width={44}
-              className="rounded-full w-16 h-16"
+              className="rounded-full w-11 h-11 mr-4"
             />
             <div className="py-4">
               <h2 className="text-md">{title}</h2>
@@ -69,7 +68,7 @@ import Link from "next/link";
           <div className="flex items-center justify-end p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-gray-600"
+              className="h-6 w-6 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
