@@ -105,7 +105,7 @@ export const Content12 = () => {
           Tailored Solutions
         </h1>
         <p className="max-w-lg text-xl leading-relaxed">
-        Create a tool that helps practitioners adjust medication dosages based on the patient&apos;s age, gender, and constitution (Prakriti)
+        Create a tool that helps practitioners adjust medication dosages based on the patient&apos; s age, gender, and constitution (Prakriti)
         </p>
       </div>
       <div className="grid grid-cols-2 mt-5 gap-y-5 sm:gap-y-0 lg:mx-auto lg:max-w-6xl">
@@ -119,31 +119,17 @@ export const Content12 = () => {
           />
         </div>
         <div className="col-span-2 px-3 pb-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:f-t lg:f-r">
-          <h1 className="font-extrabold text-xl text-slate-900">Bookkeeping</h1>
-          <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-            Our bookkeeping service provides comprehensive financial management
-            support for small businesses in the USA. We offer a range of
-            bookkeeping services tailored to meet your specific needs. Our team
-            of experts will work with you to ensure that your financial records
-            are up-to-date with all relevant regulations. We use latest
-            technology to consolidate your financial data in a place, providing
-            you with a clear snapshot of your financial position. With our
-            service, you can stay on top of your financial health.
+          <h1 className="font-extrabold text-xl">Ayurvedic Medicine Finde</h1>
+          <p className="max-w-lg mt-3 text-xl leading-relaxed md:mt-8">
+          Our Ayurvedic Medicine Finder is your key to unlocking personalized treatment solutions. Designed for practitioners and patients alike, our platform harnesses the wisdom of Ayurveda to provide tailored medicine recommendations based on your unique symptoms. Say goodbye to the guesswork and discover precise Ayurvedic remedies crafted just for you. Experience holistic healing, one symptom at a time.
           </p>
         </div>
         <div className="col-span-2 px-3 pb-3 order-3 dark:f-slate-700 f-gray-50 sm:col-span-1 sm:flex sm:flex-col sm:justify-center sm:pl-7 sm:order-none sm:f-b lg:f-l">
-          <h1 className="font-extrabold text-xl text-slate-900">
-            Financial Analysis
+          <h1 className="font-extrabold text-xl">
+          Ayurvedic Health Insights
           </h1>
-          <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-            Financial dashboards are transforming decision-making for businesses
-            by enabling the visualization of key data. Tools consolidate a
-            companys Key performance indicators in one place while presenting a
-            real-time snapshot of financial position, helping to inform future
-            planning. Visuals that dashboards create not only makes it easier
-            for everyone in the organization to understand exactly what is going
-            on, but also highlights actionable steps that can be taken to boost
-            performance.
+          <p className="max-w-lg mt-3 text-xl leading-relaxed md:mt-8">
+          Our Ayurvedic Health Insights platform revolutionizes your well-being journey by providing comprehensive insights into your health. Much like financial dashboards for businesses, our Ayurvedic health dashboards consolidate your key health indicators in one place, offering real-time snapshots of your well-being. These visual representations empower you to make informed decisions, identify areas for improvement, and take proactive steps to enhance your health. Harness the power of Ayurveda with clear, actionable insights. Your path to holistic health starts here.
           </p>
         </div>
         <div className="col-span-2 order-2 sm:col-span-1 sm:order-none">

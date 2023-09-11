@@ -3,15 +3,13 @@ import Image from "next/image";
 export const Step2 = () => {
     return (
       <>
-        <div className="bg-secondary-light pt-16">
+        <div className="pt-16 text-white">
           <div className="text-center flex flex-col gap-y-3 px-2 sm:mx-auto w-full ">
-            <h1 className="font-extrabold text-center text-3xl tracking-tight text-slate-900 dark:text-slate-100 sm:px-3 sm:text-3xl md:mx-auto lg:px-5 w-2/3">
-              Bespoke Services Transform Your Business
+            <h1 className="font-extrabold text-center text-3xl tracking-tight sm:px-3 sm:text-3xl md:mx-auto lg:px-5 w-2/3">
+            Ayurveda-Driven Transformation for Holistic Health
             </h1>
-            <p className="text-center text-xl leading-relaxed text-gray-600 w-3/4 mx-auto">
-              We are excited to guide you through the seamless process of utilizing
-              our bookkeeping and financial analysis service. Here is a step-by-step
-              breakdown of how our system operates:
+            <p className="text-center text-xl leading-relaxed w-3/4 mx-auto">
+            We are thrilled to assist you in navigating the seamless process of harnessing our Ayurvedic medicine discovery and analysis service. Here is a step-by-step breakdown of how our system operates:
             </p>
           </div>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -23,7 +21,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-4 text-gray-600"
+                            className="w-4 "
                             stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
@@ -53,11 +51,8 @@ export const Step2 = () => {
                     <p className="mb-2 text-lg font-bold text-primary">
                       1.Consultation or Straight Sign-up
                     </p>
-                    <p className="text-gray-700">
-                      To get started, you have two options. You can either book a
-                      free consultation with our team to discuss your specific
-                      needs, or you can sign up directly for a free month to
-                      experience our services firsthand.
+                    <p className="">
+                    To begin your journey with our Ayurvedic medicine discovery and analysis service, you have two convenient options. You can either schedule a free consultation with our team to discuss your individual requirements, or you can opt for a direct sign-up, granting you a free month to experience the full scope of our services.
                     </p>
                   </div>
                 </div>
@@ -67,7 +62,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-4 text-gray-600"
+                            className="w-4 "
                             stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
@@ -97,11 +92,8 @@ export const Step2 = () => {
                     <p className="mb-2 text-lg font-bold text-primary">
                       2.Personalized Dashboard
                     </p>
-                    <p className="text-gray-700">
-                      Once you are onboarded, you will gain access to your personalized
-                      dashboard. This is where the magic happens! Your dashboard
-                      serves as the central hub for all your bookkeeping and
-                      financial information.
+                    <p className="">
+                    In the Documents section of your dashboard, you can effortlessly upload documents such as research papers, patient records, or any relevant files. This ensures that all your valuable data is securely stored in one digital location, eliminating the need for cumbersome physical paperwork.
                     </p>
                   </div>
                 </div>
@@ -111,7 +103,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-4 text-gray-600"
+                            className="w-4 "
                             stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
@@ -139,13 +131,10 @@ export const Step2 = () => {
                   </div>
                   <div className="pt-1 pb-8">
                     <p className="mb-2 text-lg font-bold text-primary">
-                      3.Document Upload
+                      3.Team Communication
                     </p>
-                    <p className="text-gray-700">
-                      In the “Documents” section of your dashboard, you can easily
-                      upload your receipts, invoices, and other relevant documents.
-                      This ensures that all your financial data is securely stored
-                      in one place, eliminating the hassle of physical paperwork.
+                    <p className="">
+                    Communication with our expert team is seamless. Through the "Messages" section of your dashboard, you can directly interact with us. Whether you have questions, specific requests, or additional information to share, feel free to reach out. Our dedicated team is here to support you at every step.
                     </p>
                   </div>
                 </div>
@@ -155,7 +144,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-4 text-gray-600"
+                            className="w-4 "
                             stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
@@ -183,15 +172,10 @@ export const Step2 = () => {
                   </div>
                   <div className="pt-1 pb-8">
                     <p className="mb-2 text-lg font-bold text-primary">
-                      4.Team Communication
+                    4.Customized Solutions:
                     </p>
-                    <p className="text-gray-700">
-                      Need to communicate with our team? No problem! You can
-                      interact with us directly through the “Messages” section of
-                      your dashboard. Feel free to ask questions, make specific
-                      requests, or provide any additional information you deem
-                      necessary. Our team is here to assist you every step of the
-                      way.
+                    <p className="">
+                    We recognize that each practitioner may have unique preferences and needs. Under the "Analysis" tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you'd like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice.
                     </p>
                   </div>
                 </div>
@@ -201,7 +185,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-4 text-gray-600"
+                            className="w-4 "
                             stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
@@ -228,17 +212,11 @@ export const Step2 = () => {
                     <div className="w-px h-full bg-gray-300"></div>
                   </div>
                   <div className="pt-1 pb-8">
-                    <p className="mb-2 text-lg font-bold text-primary">
+                    <p className="mb-2 text-lg font-bold ">
                       5.Custom Solution
                     </p>
-                    <p className="text-gray-700">
-                      We understand that every client has unique needs and
-                      preferences. Under the “Bookkeeping” tab, we provide custom
-                      reports tailored to your specific requirements. Additionally,
-                      if you have any specific Key Performance Indicators (KPIs)
-                      you would like to see on your financial dashboard, we will include
-                      them as well. Our goal is to provide you with the insights and
-                      data that matter most to your business.
+                    <p className="">
+                    We recognize that each practitioner may have unique preferences and needs. Under the "Analysis" tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you'd like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice
                     </p>
                   </div>
                 </div>
@@ -248,7 +226,7 @@ export const Step2 = () => {
                       <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                         <span className="w-fit">
                           <svg
-                            className="w-6 text-gray-600"
+                            className="w-6 "
                             stroke="currentColor"
                             viewBox="0 0 24 24"
                           >
@@ -266,8 +244,8 @@ export const Step2 = () => {
                     </div>
                   </div>
                   <div className="pt-1">
-                    <p className="mb-2 text-lg font-bold text-primary">Success</p>
-                    <p className="text-gray-700">Done</p>
+                    <p className="mb-2 text-lg font-bold ">Success</p>
+                    <p className="">Done</p>
                   </div>
                 </div>
               </div>

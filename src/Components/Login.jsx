@@ -54,7 +54,9 @@ const Login = () => {
   return (
     <>
       <Navigation handleLogin={handleLogin} />
-      <Parallax/>
+      <div className="max-sm:hidden">
+        <Parallax/>
+      </div>
       <Hero />
       
       <CarouselComp />
@@ -63,14 +65,8 @@ const Login = () => {
       <Content5 />
       <Content12 />
       <Step2 />
-      <p className="mx-8 my-16 max-w-full text-xl leading-relaxed text-gray-600">
-        Throughout your journey with us, we are dedicated to providing a
-        user-friendly, digital experience that empowers you to make informed
-        financial decisions. Your success is our priority, and our team of
-        experts is here to ensure your satisfaction. Are you ready to streamline
-        your bookkeeping and gain valuable financial insights? Book a free
-        consultation or sign up for a free month today and experience the
-        convenience of our tailored solution.
+      <p className="mx-8 my-16 max-w-full text-xl leading-relaxed text-white">
+      Throughout your experience with us, our commitment is to offer a seamless and user-friendly digital platform that empowers you to make well-informed decisions regarding Ayurvedic medicine analysis. Your success is paramount to us, and our team of experts is wholeheartedly dedicated to ensuring your utmost satisfaction. If you're prepared to simplify your Ayurvedic practice and gain invaluable insights into medicinal analysis, we invite you to take the next step. Whether you choose to book a free consultation or sign up for a complimentary month of our services, we're eager to show you the convenience and effectiveness of our tailored solution. Get ready to embark on a journey of enhanced efficiency and precision in Ayurvedic medicine analysis.
       </p>
       <Testimonial5 />
       <Cta3 />

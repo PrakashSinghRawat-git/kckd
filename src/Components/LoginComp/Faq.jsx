@@ -1,18 +1,18 @@
 import Image from 'next/image'
 export const Faq4 = () => {
     return (
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-white">
         <div className="max-w-2xl mx-auto mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-white">
             You might be wondering...
           </h2>
         </div>
-        <div className="max-w-2xl mx-auto divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="max-w-2xl mx-auto divide-y ">
           <div className="py-8 first:pt-0 last:pb-0">
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -24,13 +24,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  Can I cancel at anytime?
+                <h3 className="md:text-lg font-semibold ">
+                How do I access Ayurvedic remedies and information?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  Yes, you can cancel anytime no questions are asked while you
-                  cancel but we would highly appreciate if you will give us some
-                  feedback.
+                Once you've subscribed to our Ayurvedic medicine service, you'll gain immediate access to a wealth of Ayurvedic remedies, information, and resources. Simply log in to your account to explore and utilize the vast knowledge and recommendations available.
                 </p>
               </div>
             </div>
@@ -39,7 +37,7 @@ export const Faq4 = () => {
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -51,12 +49,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  My team has credits. How do we use them?
+                <h3 className="md:text-lg font-semibold ">
+                What are the benefits of Ayurvedic medicine for my health?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  Once your team signs up for a subscription plan. This is where
-                  we sit down, grab a cup of coffee and dial in the details.
+                Ayurvedic medicine offers a holistic approach to health and wellness. It focuses on natural remedies, personalized treatment plans, and overall well-being. With Ayurveda, you can achieve balance and make informed choices for your health.
                 </p>
               </div>
             </div>
@@ -65,7 +62,7 @@ export const Faq4 = () => {
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6 "
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -77,13 +74,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  Advantages of bookkeeping for my business?
+                <h3 className="md:text-lg font-semibold ">
+                When can I expect to receive personalized Ayurvedic recommendations?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  Bookkeeping provides clear picture of Cashflow. It is a tool to
-                  measure business’s health and it enables businesses to make
-                  informed and smart decisions.
+                Once you provide us with your health information and specific requirements, our expert team will create personalized Ayurvedic recommendations for you. These tailored solutions will be delivered to you in a timely manner to support your well-being journey.
                 </p>
               </div>
             </div>
@@ -92,7 +87,7 @@ export const Faq4 = () => {
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -104,14 +99,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  When to expect Financial Statements?
+                <h3 className="md:text-lg font-semibold ">
+                How does Ayurvedic medicine complement modern healthcare?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  Once all the documents have been provided we will reconcile your
-                  accounts and update each account within 10 business days and
-                  prepare financial statements. You will get real time update of
-                  every stage.
+                Ayurvedic medicine can complement modern healthcare by offering natural and holistic approaches to health issues. It focuses on prevention and wellness, and many individuals find relief and improved health by incorporating Ayurvedic practices into their lives.
                 </p>
               </div>
             </div>
@@ -120,7 +112,7 @@ export const Faq4 = () => {
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -132,17 +124,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  How do I get access to a theme I purchased?
+                <h3 className="md:text-lg font-semibold ">
+                Is Ayurvedic medicine safe and suitable for everyone?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  If you lose the link for a theme you purchased, don&apos;t
-                  panic! We&apos;ve got you covered. You can login to your
-                  account, tap your avatar in the upper right corner, and tap
-                  Purchases. If you didn&apos;t create a login or can&apos;t
-                  remember the information, you can use our handy Redownload page,
-                  just remember to use the same email you originally made your
-                  purchases with.
+                Ayurvedic medicine is generally safe and suitable for most individuals. However, it's essential to consult with a qualified Ayurvedic practitioner to ensure that treatments and remedies are tailored to your unique constitution and health needs.
                 </p>
               </div>
             </div>
@@ -151,7 +137,7 @@ export const Faq4 = () => {
             <div className="flex gap-x-5">
               <span className="w-fit">
                 <svg
-                  className="flex-shrink-0 mt-1 w-6 h-6 text-gray-500"
+                  className="flex-shrink-0 mt-1 w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -163,13 +149,11 @@ export const Faq4 = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                  Do we offer catch up bookkeeping?
+                <h3 className="md:text-lg font-semibol">
+                ow can I learn more about Ayurveda and its principles?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                  Yes! With OCR ( Optical Character Recognition ) We can process
-                  your data so quickly that we can get you caught up even if years
-                  behind.
+                If you're interested in delving deeper into Ayurveda and its principles, our platform offers educational resources, articles, and guides. These materials can help you understand Ayurveda's fundamental concepts and how they can benefit your health and well-being.
                 </p>
               </div>
             </div>

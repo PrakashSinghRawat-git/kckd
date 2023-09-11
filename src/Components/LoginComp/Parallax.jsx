@@ -1,54 +1,52 @@
-import Head from 'next/head'
-import React, { useEffect, useRef, useState } from 'react';
+import Head from "next/head";
+import React, { useEffect, useRef, useState } from "react";
 
 const Parallax = () => {
+  const [scrollValue, setScrollValue] = useState(0);
+  const textRef = useRef(null);
+  const leafRef = useRef(null);
+  const hill1Ref = useRef(null);
+  const hill4Ref = useRef(null);
+  const hill5Ref = useRef(null);
 
-    const [scrollValue, setScrollValue] = useState(0);
-    const textRef = useRef(null);
-    const leafRef = useRef(null);
-    const hill1Ref = useRef(null);
-    const hill4Ref = useRef(null);
-    const hill5Ref = useRef(null);
-  
-    useEffect(() => {
-        const handleScroll = () => {
-          const value = window.scrollY;
-          setScrollValue(value);
-      
-          if (textRef.current) {
-            textRef.current.style.marginTop = value * 1.5 + 'px';
-          }
-      
-          if (leafRef.current) {
-            leafRef.current.style.top = value * -0.5 + 'px';
-            leafRef.current.style.left = value * 0.5 + 'px';
-          }
-      
-          if (hill5Ref.current) {
-            hill5Ref.current.style.left = value * 0.5 + 'px';
-          }
-      
-          if (hill4Ref.current) {
-            hill4Ref.current.style.left = value * -0.5 + 'px';
-          }
-      
-          if (hill1Ref.current) {
-            hill1Ref.current.style.top = value * 0.3 + 'px';
-          }
-        };
-      
-        window.addEventListener('scroll', handleScroll);
-      
-        return () => {
-          window.removeEventListener('scroll', handleScroll);
-        };
-      }, [scrollValue]);
-      
+  useEffect(() => {
+    const handleScroll = () => {
+      const value = window.scrollY;
+      setScrollValue(value);
+
+      if (textRef.current) {
+        textRef.current.style.marginTop = value * 1.5 + "px";
+      }
+
+      if (leafRef.current) {
+        leafRef.current.style.top = value * -0.5 + "px";
+        leafRef.current.style.left = value * 0.5 + "px";
+      }
+
+      if (hill5Ref.current) {
+        hill5Ref.current.style.left = value * 0.5 + "px";
+      }
+
+      if (hill4Ref.current) {
+        hill4Ref.current.style.left = value * -0.5 + "px";
+      }
+
+      if (hill1Ref.current) {
+        hill1Ref.current.style.top = value * 0.3 + "px";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollValue]);
 
   return (
     <>
-    <Head>
-       <style>{`
+      <Head>
+        <style>{`
        header {
         position: absolute;
         top: 0;
@@ -126,9 +124,9 @@ const Parallax = () => {
         font-weight: 300;
     }
        `}</style>
-    </Head>
+      </Head>
 
-  <section className="parallax">
+      <section className="parallax">
         <img src="/parallax/hill1.png" ref={hill1Ref} alt={1} />
         <img src="/parallax/hill2.png" alt={2} />
         <img src="/parallax/hill3.png" alt={3} />
@@ -141,46 +139,45 @@ const Parallax = () => {
         <img src="/parallax/leaf.png" id="leaf" ref={leafRef} alt={7} />
         <img src="/parallax/plant.png" id="hills" alt={8} />
       </section>
-  <section className="sec">
-    <h2>Vital Roots</h2>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam id
-      recusandae incidunt iure pariatur, fugiat voluptatem labore maxime, saepe,
-      ad quam. Asperiores temporibus consequatur commodi facilis iusto. Fugit
-      nemo ipsum quod numquam itaque tenetur quos obcaecati voluptate, corporis
-      labore vero aut doloremque magnam. Quos repellat commodi quisquam tempore.
-      Itaque ratione perspiciatis deleniti libero, repellat magnam vitae sequi
-      dolore id tempora quis praesentium voluptates consectetur laudantium
-      pariatur hic debitis dolor alias soluta quam odio excepturi labore ipsa
-      tenetur. Alias minima delectus ipsam! Itaque veniam soluta ratione
-      reprehenderit aspernatur nihil ab, eos numquam sit voluptates eius
-      voluptas beatae eligendi nulla, in animi illum esse sapiente cumque error
-      minima, totam commodi rem? Hic id iusto optio magni repellat qui sapiente
-      possimus perferendis culpa nemo laboriosam eos mollitia ratione nisi
-      ducimus, perspiciatis iure, in voluptatibus atque quas exercitationem!{" "}
-      <br />
-      <br />
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam id
-      recusandae incidunt iure pariatur, fugiat voluptatem labore maxime, saepe,
-      ad quam. Asperiores temporibus consequatur commodi facilis iusto. Fugit
-      nemo ipsum quod numquam itaque tenetur quos obcaecati voluptate, corporis
-      labore vero aut doloremque magnam. Quos repellat commodi quisquam tempore.
-      Itaque ratione perspiciatis deleniti libero, repellat magnam vitae sequi
-      dolore id tempora quis praesentium voluptates consectetur laudantium
-      pariatur hic debitis dolor alias soluta quam odio excepturi labore ipsa
-      tenetur. Alias minima delectus ipsam! Itaque veniam soluta ratione
-      reprehenderit aspernatur nihil ab, eos numquam sit voluptates eius
-      voluptas beatae eligendi nulla, in animi illum esse sapiente cumque error
-      minima, totam commodi rem? Hic id iusto optio magni repellat qui sapiente
-      possimus perferendis culpa nemo laboriosam eos mollitia ratione nisi
-      ducimus, perspiciatis iure, in voluptatibus atque quas exercitationem!
-      <br />
-      
-    </p>
-  </section>
-</>
+      <section className="sec">
+        <h2>Vital Roots</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam id
+          recusandae incidunt iure pariatur, fugiat voluptatem labore maxime,
+          saepe, ad quam. Asperiores temporibus consequatur commodi facilis
+          iusto. Fugit nemo ipsum quod numquam itaque tenetur quos obcaecati
+          voluptate, corporis labore vero aut doloremque magnam. Quos repellat
+          commodi quisquam tempore. Itaque ratione perspiciatis deleniti libero,
+          repellat magnam vitae sequi dolore id tempora quis praesentium
+          voluptates consectetur laudantium pariatur hic debitis dolor alias
+          soluta quam odio excepturi labore ipsa tenetur. Alias minima delectus
+          ipsam! Itaque veniam soluta ratione reprehenderit aspernatur nihil ab,
+          eos numquam sit voluptates eius voluptas beatae eligendi nulla, in
+          animi illum esse sapiente cumque error minima, totam commodi rem? Hic
+          id iusto optio magni repellat qui sapiente possimus perferendis culpa
+          nemo laboriosam eos mollitia ratione nisi ducimus, perspiciatis iure,
+          in voluptatibus atque quas exercitationem! <br />
+          <br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam id
+          recusandae incidunt iure pariatur, fugiat voluptatem labore maxime,
+          saepe, ad quam. Asperiores temporibus consequatur commodi facilis
+          iusto. Fugit nemo ipsum quod numquam itaque tenetur quos obcaecati
+          voluptate, corporis labore vero aut doloremque magnam. Quos repellat
+          commodi quisquam tempore. Itaque ratione perspiciatis deleniti libero,
+          repellat magnam vitae sequi dolore id tempora quis praesentium
+          voluptates consectetur laudantium pariatur hic debitis dolor alias
+          soluta quam odio excepturi labore ipsa tenetur. Alias minima delectus
+          ipsam! Itaque veniam soluta ratione reprehenderit aspernatur nihil ab,
+          eos numquam sit voluptates eius voluptas beatae eligendi nulla, in
+          animi illum esse sapiente cumque error minima, totam commodi rem? Hic
+          id iusto optio magni repellat qui sapiente possimus perferendis culpa
+          nemo laboriosam eos mollitia ratione nisi ducimus, perspiciatis iure,
+          in voluptatibus atque quas exercitationem!
+          <br />
+        </p>
+      </section>
+    </>
+  );
+};
 
-  )
-}
-
-export default Parallax
+export default Parallax;

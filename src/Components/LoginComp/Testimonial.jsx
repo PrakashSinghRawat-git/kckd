@@ -6,7 +6,7 @@ export const Testimonial5 = () => {
         <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
-              Loved by business and individuals across the globe
+            Cherished by Practitioners Worldwide
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -14,7 +14,7 @@ export const Testimonial5 = () => {
               <div className="flex flex-col bg-white rounded-xl">
                 <div className="flex-auto p-4 md:p-6">
                   <p className="text-base italic md:text-lg text-gray-800 ">
-                  Working with SyracuseBookkeeping has been a game-changer for my small business. Their team is incredibly knowledgeable and always available to answer my questions. I highly recommend SyracuseBookkeeping to any small business owner who wants to take their financial management to the next leve
+                  My experience with AyurMediPro has been truly transformative for my Ayurvedic practice. Their dedicated team possesses unparalleled knowledge and is always accessible to address my queries. I wholeheartedly recommend AyurMediPro to any practitioner seeking to elevate their Ayurvedic medicine analysis to new heights.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
@@ -27,10 +27,10 @@ export const Testimonial5 = () => {
                     </div>
                     <div className="grow ml-3">
                       <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
-                        Josh Tyson
+                      Dr. Rajesh Gupta
                       </p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">
-                        Product Manager | Capsule
+                      Ayurvedic Practitioner | AyurVeda Wellness
                       </p>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ export const Testimonial5 = () => {
               <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
                   <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
-                  As a small business owner, I wear a lot of hats. Bookkeeping was always a struggle for me, and I worried that I was making costly mistakes. But since I started working with Vital Roots, I&apos;ve been relax knowing that my finances are in good hands. Their team is professional, and always on top of the latest regulations and best practices.
+                  Balancing the various aspects of my Ayurvedic practice can be a daunting task. Medicinal analysis used to be a significant challenge, and I worried about potential inaccuracies. However, ever since I partnered with AyurMediPro, I've been able to relax, knowing that my medicine analysis is in capable hands. Their team maintains the highest level of professionalism and is constantly updated on the latest Ayurvedic practices and regulations.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
@@ -54,10 +54,10 @@ export const Testimonial5 = () => {
                     </div>
                     <div className="grow ml-3">
                       <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
-                        Luisa
+                      Priya Patel
                       </p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">
-                        Senior Director of Operations | Fitbit
+                      Owner | Prana Ayurveda Center
                       </p>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ export const Testimonial5 = () => {
               <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
                   <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
-                  I used to dread tax season every year because I knew I&apos;d be scrambling to get my financial records in order. But since I started working with Syracuse, tax season has become a breeze. They keep my books in order and make sure. Plus, their analysis services have helped me identify new opportunities and improvement in my business. 
+                  The arrival of tax season would often fill me with dread as I faced the daunting task of organizing my Ayurvedic medicine records. However, AyurMediPro has transformed this annual ordeal into a smooth and effortless process. They meticulously maintain my medicinal records, ensuring that everything is in perfect order. Moreover, their insightful analysis services have not only streamlined my practice but have also uncovered new opportunities for growth and enhancement.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
@@ -81,10 +81,10 @@ export const Testimonial5 = () => {
                     </div>
                     <div className="grow ml-3">
                       <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
-                        Alisa Williams
+                      Virendra Singh
                       </p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">
-                        Entrepreneur | Happy customer
+                      Ayurvedic Healer | Wellness Harmony Clinic
                       </p>
                     </div>
                   </div>

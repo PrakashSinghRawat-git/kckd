@@ -3,8 +3,8 @@ import Image from 'next/image'
 export const Footer6 = () => {
     return (
       <>
-        <footer>
-          <div className="py-6 bg-green-500">
+        <footer className="text-white">
+          <div className="py-6 bg-[#105f4fa1] text-white">
             <div className="px-4 mx-auto max-w-7xl md:px-8">
               <div className="flex flex-col md:flex-row justify-between items-center gap-2">
                 <div className="text-center md:text-left mb-3 md:mb-0">
@@ -31,7 +31,7 @@ export const Footer6 = () => {
                       className="inline-flex items-center text-black-800 text-xl md:text-2xl font-bold gap-2"
                       href="#"
                     >
-                      <span className="w-5 h-auto text-indigo-500">
+                      <span className="w-5 h-auto">
                         <div style={{fontSize:'inherit',color:'inherit',padding:'2px'}}>
                           <svg
                             stroke="currentColor"
@@ -49,13 +49,13 @@ export const Footer6 = () => {
                       <span> Vital Roots</span>
                     </Link>
                   </div>
-                  <p className="text-gray-500 sm:pr-8 mb-6">
+                  <p className=" sm:pr-8 mb-6">
                     Filler text is dummy text which has no meaning however looks
                     very similar to real text
                   </p>
                   <div className="flex gap-4">
                     <Link
-                      className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                      className="transition duration-100"
                       href="#"
                     >
                       <span className="w-5 h-5">
@@ -75,7 +75,7 @@ export const Footer6 = () => {
                       </span>
                     </Link>
                     <Link
-                      className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                      className=" hover: active:text-gray-600 transition duration-100"
                       href="#"
                     >
                       <span className="w-fit">
@@ -92,7 +92,7 @@ export const Footer6 = () => {
                       </span>
                     </Link>
                     <Link
-                      className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                      className=" hover: active:text-gray-600 transition duration-100"
                       href="#"
                     >
                       <span className="w-fit">
@@ -109,7 +109,7 @@ export const Footer6 = () => {
                       </span>
                     </Link>
                     <Link
-                      className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
+                      className=" hover: active:text-gray-600 transition duration-100"
                       href="#"
                     >
                       <span className="w-5 h-5">
@@ -131,13 +131,13 @@ export const Footer6 = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="text-gray-800 font-bold tracking-widest uppercase mb-4">
+                  <p className=" font-bold tracking-widest uppercase mb-4">
                     Products
                   </p>
                   <nav className="flex flex-col gap-4">
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Overview
@@ -145,7 +145,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Solutions
@@ -153,7 +153,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Pricing
@@ -161,7 +161,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Customers
@@ -170,13 +170,13 @@ export const Footer6 = () => {
                   </nav>
                 </div>
                 <div>
-                  <p className="text-gray-800 font-bold tracking-widest uppercase mb-4">
+                  <p className=" font-bold tracking-widest uppercase mb-4">
                     Company
                   </p>
                   <nav className="flex flex-col gap-4">
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         About
@@ -184,7 +184,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Investor Relations
@@ -192,7 +192,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Jobs
@@ -200,7 +200,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Press
@@ -208,7 +208,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Blog
@@ -217,13 +217,13 @@ export const Footer6 = () => {
                   </nav>
                 </div>
                 <div>
-                  <p className="text-gray-800 font-bold tracking-widest uppercase mb-4">
+                  <p className=" font-bold tracking-widest uppercase mb-4">
                     Support
                   </p>
                   <nav className="flex flex-col gap-4">
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Contact
@@ -231,7 +231,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Documentation
@@ -239,7 +239,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Chat
@@ -247,7 +247,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         FAQ
@@ -256,13 +256,13 @@ export const Footer6 = () => {
                   </nav>
                 </div>
                 <div>
-                  <p className="text-gray-800 font-bold tracking-widest uppercase mb-4">
+                  <p className=" font-bold tracking-widest uppercase mb-4">
                     Legal
                   </p>
                   <nav className="flex flex-col gap-4">
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Terms of Service
@@ -270,7 +270,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Privacy Policy
@@ -278,7 +278,7 @@ export const Footer6 = () => {
                     </div>
                     <div>
                       <Link
-                        className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                        className=" hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                         href="#"
                       >
                         Cookie settings
@@ -288,7 +288,7 @@ export const Footer6 = () => {
                 </div>
               </div>
               <p className="text-gray-400 text-sm text-center border-t py-8">
-                © 2021 - Present rdilshad3559@gmail.com . All rights reserved.
+                © 2023 - Present rdilshad3559@gmail.com . All rights reserved.
               </p>
             </div>
           </div>
