@@ -28,7 +28,7 @@ export const Faq4 = () => {
                 How do I access Ayurvedic remedies and information?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                Once you&apos;ve subscribed to our Ayurvedic medicine service, you'll gain immediate access to a wealth of Ayurvedic remedies, information, and resources. Simply log in to your account to explore and utilize the vast knowledge and recommendations available.
+                Once you&apos;ve subscribed to our Ayurvedic medicine service, you&apos;ll gain immediate access to a wealth of Ayurvedic remedies, information, and resources. Simply log in to your account to explore and utilize the vast knowledge and recommendations available.
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export const Faq4 = () => {
                 ow can I learn more about Ayurveda and its principles?
                 </h3>
                 <p className="mt-1 text-gray-500">
-                If you&apos;re interested in delving deeper into Ayurveda and its principles, our platform offers educational resources, articles, and guides. These materials can help you understand Ayurveda's fundamental concepts and how they can benefit your health and well-being.
+                If you&apos;re interested in delving deeper into Ayurveda and its principles, our platform offers educational resources, articles, and guides. These materials can help you understand Ayurveda&apos;s fundamental concepts and how they can benefit your health and well-being.
                 </p>
               </div>
             </div>
