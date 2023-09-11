@@ -134,7 +134,7 @@ export const Step2 = () => {
                       3.Team Communication
                     </p>
                     <p className="">
-                    Communication with our expert team is seamless. Through the "Messages" section of your dashboard, you can directly interact with us. Whether you have questions, specific requests, or additional information to share, feel free to reach out. Our dedicated team is here to support you at every step.
+                    Communication with our expert team is seamless. Through the &quot;Messages&quot; section of your dashboard, you can directly interact with us. Whether you have questions, specific requests, or additional information to share, feel free to reach out. Our dedicated team is here to support you at every step.
                     </p>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export const Step2 = () => {
                     4.Customized Solutions:
                     </p>
                     <p className="">
-                    We recognize that each practitioner may have unique preferences and needs. Under the "Analysis" tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you'd like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice.
+                    We recognize that each practitioner may have unique preferences and needs. Under the &quot;Analysis&quot; tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you&apos;d like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice.
                     </p>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export const Step2 = () => {
                       5.Custom Solution
                     </p>
                     <p className="">
-                    We recognize that each practitioner may have unique preferences and needs. Under the "Analysis" tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you'd like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice
+                    We recognize that each practitioner may have unique preferences and needs. Under the &quot;Analysis&quot; tab, we offer custom reports tailored to your specific requirements. Additionally, if you have specific symptoms, dosages, or time periods you&apos;d like to see in your analysis, we will incorporate them. Our objective is to provide you with the insights and information that are most relevant to your Ayurvedic practice
                     </p>
                   </div>
                 </div>

@@ -41,7 +41,7 @@ export const Testimonial5 = () => {
               <div className="flex flex-col bg-white rounded-xl dark:bg-slate-900">
                 <div className="flex-auto p-4 md:p-6">
                   <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
-                  Balancing the various aspects of my Ayurvedic practice can be a daunting task. Medicinal analysis used to be a significant challenge, and I worried about potential inaccuracies. However, ever since I partnered with AyurMediPro, I've been able to relax, knowing that my medicine analysis is in capable hands. Their team maintains the highest level of professionalism and is constantly updated on the latest Ayurvedic practices and regulations.
+                  Balancing the various aspects of my Ayurvedic practice can be a daunting task. Medicinal analysis used to be a significant challenge, and I worried about potential inaccuracies. However, ever since I partnered with AyurMediPro, I&apos;ve been able to relax, knowing that my medicine analysis is in capable hands. Their team maintains the highest level of professionalism and is constantly updated on the latest Ayurvedic practices and regulations.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
