@@ -5,7 +5,7 @@ import { collection, getDocs } from 'firebase/firestore';
 
 import React, { useEffect, useState } from 'react'
 
-const index = () => {
+const Home = () => {
   const [data, setData] = useState([])
 
 
@@ -66,4 +66,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Home

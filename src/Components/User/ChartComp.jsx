@@ -73,7 +73,7 @@ const ChartComp = ({ data }) => {
           Ayurvedic Healing for Common Ailments
         </h1>
         <p>
-          Nature's pharmacy holds the key to healing. Ayurveda illuminates the
+          Nature&apos;s pharmacy holds the key to healing. Ayurveda illuminates the
           path to wellness, one holistic remedy at a time
         </p>
       </div>
