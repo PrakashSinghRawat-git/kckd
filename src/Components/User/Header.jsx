@@ -33,7 +33,7 @@ const Header = ({photoUrl, sideNavActive, setSideNavActive}) => {
   return (
     <header className="bg-[#025a486c] fixed z-10 w-full container mx-auto py-4 shadow-md">
       <div className="container flex items-center justify-between h-full px-6 mx-auto  dark2text-purple-300 text-white">
-        <div className="text-xl">Vital Roots</div>
+        <div className="text-xl font-bold">Vital Roots</div>
         {/* <!-- Mobile hamburger --> */}
         <button
           className="p-1 mr-5 -ml-1 rounded-md md:hidden focus:outline-none focus:shadow-outline-purple"

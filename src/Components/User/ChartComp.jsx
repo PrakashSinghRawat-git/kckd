@@ -77,9 +77,8 @@ const ChartComp = ({ data }) => {
           path to wellness, one holistic remedy at a time
         </p>
       </div>
-
-      <Chart1 ingredientDetails={ingredientDetails} data={data}/>
       <Chart2 ingredientDetails={ingredientDetails} data={data}/>
+      <Chart1 ingredientDetails={ingredientDetails} data={data}/>
       <AllIngred ingredientDetails={ingredientDetails}/>
 
       <div className="mt-4 w-full grid grid-cols-1 gap-3 justify-center items-center">

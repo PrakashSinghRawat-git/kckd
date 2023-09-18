@@ -21,7 +21,7 @@ const Chart2 = ({data, ingredientDetails}) => {
         labels: [],
         datasets: [
           {
-            label: "frequncy of ingredient",
+            label: "frequncy of use as ingredient in diseases",
             data: [],
             backgroundColor: ["rgba(75, 192, 192, 0.6)"],
           },
@@ -62,12 +62,12 @@ const Chart2 = ({data, ingredientDetails}) => {
             labels: top10Ingredients,
             datasets: [
               {
-                label: "frequncy of ingredient",
+                label: "frequncy of use as ingredient in Classes",
                 data: frequencyOfClasses,
                 backgroundColor: ["rgba(75, 192, 192, 0.6)"],
               },
               {
-                label: "frequncy of classes",
+                label: "frequncy of use as ingredient in Diseases",
                 data: frequencyOfDiseases,
                 backgroundColor: ["rgba(255, 99, 12, 0.6)"],
               },
