@@ -16,7 +16,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
   return (
     <>
       {/* <!-- Desktop sidebar --> */}
-      <aside className="max-sm:hidden z-20 overflow-y-auto text-white bg-[#025a486c] shadow-xl border-[#025a4893] border-r-2 h-screen">
+      <aside className="max-sm:hidden z-20 overflow-y-auto text-white bg-[#374151]  shadow-xl border-[#025a4893] border-r-2 h-screen">
         <div className="py-4 -500 ">
           <ul className="mt-6">
             <li className="relative px-6 py-3">
@@ -53,7 +53,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
             <li className="relative px-6 py-3">
               <Link
                 className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:-800 dark2hover:-200"
-                href="/all-diseases"
+                href="/learn"
               >
                 <svg
                   className="w-5 h-5"
@@ -67,7 +67,7 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
                 >
                   <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
                 </svg>
-                <span className="ml-4">All Diseases</span>
+                <span className="ml-4">Learn </span>
               </Link>
             </li>
             <li className="relative px-6 py-3">
@@ -155,14 +155,14 @@ const Sidebar = ({ displayName, sideNavActive, setSideNavActive }) => {
               )}
             </li>
           </ul>
-          <div className="px-6 my-6">
+          {/* <div className="px-6 my-6">
             <button className="flex items-center justify-between w-full px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-[#247e6c59] border border-transparent rounded-lg active:bg-[#247e6c59] hover:bg-[#247e6c59] focus:outline-none focus:shadow-outline-purple capitalize">
               Choose your Disease
               <span className="ml-2" aria-hidden="true">
                 +
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
       </aside>
     </>

@@ -94,9 +94,9 @@ const Index = () => (
                 </div>
                 <div className="hidden lg:block lg:w-3/5 xl:w-3/5 w-full lg:mt-0 mt-6">
                     <img
-                        src="https://i.ibb.co/SKLJ7WX/austin-distel-jp-Hw8ndw-J-Q-unsplash-1.png"
-                        alt="ongoing meeting"
-                        className="w-full obejct-fit object-center object-fill h-full"
+                        src="/assets/tutor.jpg"
+                        alt="tutor and student"
+                        className="w-[75%] ] obejct-fit object-center object-fill h-full"
                     />
                 </div>
             </div>

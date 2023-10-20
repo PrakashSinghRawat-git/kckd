@@ -23,7 +23,7 @@ const Hero = () => {
                 Personalised Learning and Intelligent Tutoring...
               </h1>
               <p className="mt-4 text-base text-sub-heading lg:mt-8 sm:text-xl">
-              "Discover Your Smarter Self: Your Personalized AI-Powered Learning Companion."
+              &quot;Discover Your Smarter Self: Your Personalized AI-Powered Learning Companion.&quot;
 
 
 

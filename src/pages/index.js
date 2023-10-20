@@ -2,6 +2,7 @@
 import Dashboard from '@/Components/User/Dashboard'
 import { db } from '@/db/firebase';
 import { collection, getDocs } from 'firebase/firestore';
+import Learn from '@/Components/User/Learn'
 
 import React, { useEffect, useState } from 'react'
 
@@ -50,7 +51,7 @@ const Home = () => {
       querySnapshot.forEach((doc) => {
         categoryData[doc.id] = doc.data();
       });
-  
+
       return categoryData;
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -62,7 +63,10 @@ const Home = () => {
     return "Loading...";
   }
   return (
-    <><Dashboard data={data}/></>
+    <>
+      {/* <Dashboard data={data} /> */}
+      <Learn />
+    </>
   )
 }
 
