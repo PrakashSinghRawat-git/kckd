@@ -10,7 +10,7 @@ const Hero = () => {
           {`section{
                     font-family: 'Abril Fatface', cursive;
                     font-family: 'Roboto', sans-serif;
-                    background: #003329 ;
+                    background: #2385C4 ;
                 }
             `}
         </style>
@@ -20,17 +20,21 @@ const Hero = () => {
           <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 text-white">
             <div>
               <h1 className="mt-4 text-4xl font-bold text-heading lg:mt-8 sm:text-6xl xl:text-8xl">
-                Don&apos;t just take our word for it, our results speak for
-                themselves.
+                Personalised Learning and Intelligent Tutoring...
               </h1>
               <p className="mt-4 text-base text-sub-heading lg:mt-8 sm:text-xl">
-              Discover the ancient wisdom of Ayurveda, guiding you to the remedies that resonate with your well-being, whenever and wherever you seek them.
+              "Discover Your Smarter Self: Your Personalized AI-Powered Learning Companion."
+
+
+
+
+
               </p>
               <a
                 className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#28927d] rounded-full lg:mt-16 hover:bg-purple-350"
                 href="#"
               >
-                <span>Start Rooting </span>
+                <span>Start Learning </span>
                 <span className="w-fit">
                   <svg
                     className="w-6 h-6 ml-8 -mr-2"

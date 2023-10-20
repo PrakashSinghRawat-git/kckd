@@ -1,6 +1,5 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// firebase.js
+import { initializeApp, getApp } from "firebase/app";
 import { getStorage } from "@firebase/storage";
 import { getFirestore } from "@firebase/firestore";
 import { getAuth } from "@firebase/auth";
@@ -12,13 +11,34 @@ const firebaseConfig = {
     storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
     messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
     appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    // measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app)
-const storage = getStorage(app)
-const auth = getAuth(app)
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBsaM5yDc6Zz7t6t2Ft0AORZGQZcWK7Vt0",
+//   authDomain: "kckd-835a1.firebaseapp.com",
+//   projectId: "kckd-835a1",
+//   storageBucket: "kckd-835a1.appspot.com",
+//   messagingSenderId: "954002011441",
+//   appId: "1:954002011441:web:7cf6e7a408f184bddfac10"
+// }; 
 
-export {app, db, storage, auth}
+
+function initializeAppIfNecessary() {
+    try {
+        return getApp();
+    } catch (any) {
+
+        return initializeApp(firebaseConfig);
+    }
+}
+
+const app = initializeAppIfNecessary();
+
+
+const storage = getStorage(app);
+const db = getFirestore(app);
+const auth = getAuth(app);
+
+
+export { storage, db, auth }; 

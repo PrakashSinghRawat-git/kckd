@@ -98,7 +98,7 @@ export const Content5 = () => {
 
 export const Content12 = () => {
   return (
-    <div className="py-11 text-white">
+    <div className="py-11 text-white bg-[#2385C4]">
       <div className="text-center flex flex-col gap-y-3 px-2 sm:mx-auto sm:max-w-xl ">
         {/* <p className="dark2text-gray-300">Get Started</p> */}
         <h1 className="font-extrabold text-center text-3xl tracking-tight  sm:px-3 sm:text-4xl md:max-w-xl md:mx-auto lg:px-5 2xl:max-w-4xl">

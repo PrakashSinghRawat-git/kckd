@@ -1,64 +1,70 @@
-import React, { useEffect, useState } from 'react'
-import AllIngred from './AllIngred'
+import React, { useEffect, useState } from "react";
+import AllIngred from "./AllIngred";
 
+const Dashboard = ({ data }) => {
+    const [ingredientDetails, setIngredientDetails] = useState({});
 
-const Dashboard = ({data}) => {
-  const [ingredientDetails, setIngredientDetails] = useState({});
-
-  const trimIngredientName = (ingredient) => {
-    const closingBracketIndex = ingredient.indexOf(")");
-    if (closingBracketIndex !== -1) {
-      return ingredient.substring(0, closingBracketIndex + 1);
-    }
-    return ingredient;
-  };
-
-  useEffect(() => {
-    const details = {};
-
-    Object.keys(data).forEach((classKey) => {
-      const classObj = data[classKey];
-      Object.keys(classObj).forEach((diseaseKey) => {
-        const diseaseObj = classObj[diseaseKey];
-        if (diseaseObj.hasOwnProperty("remedyIngredients")) {
-          diseaseObj.remedyIngredients.forEach((ingredient) => {
-            const trimmedIngredient = trimIngredientName(ingredient);
-            if (!details[trimmedIngredient]) {
-              details[trimmedIngredient] = {
-                count: 1,
-                classes: { [classKey]: [diseaseKey] },
-              };
-            } else {
-              details[trimmedIngredient].count++;
-              if (!details[trimmedIngredient].classes[classKey]) {
-                details[trimmedIngredient].classes[classKey] = [diseaseKey];
-              } else {
-                details[trimmedIngredient].classes[classKey].push(diseaseKey);
-              }
-            }
-          });
+    const trimIngredientName = (ingredient) => {
+        const closingBracketIndex = ingredient.indexOf(")");
+        if (closingBracketIndex !== -1) {
+            return ingredient.substring(0, closingBracketIndex + 1);
         }
-      });
-    });
+        return ingredient;
+    };
 
-    const detailsArray = Object.entries(details).map(([name, detail]) => ({
-      name,
-      ...detail,
-    }));
+    useEffect(() => {
+        const details = {};
 
-    detailsArray.sort((a, b) => b.count - a.count);
+        Object.keys(data).forEach((classKey) => {
+            const classObj = data[classKey];
+            Object.keys(classObj).forEach((diseaseKey) => {
+                const diseaseObj = classObj[diseaseKey];
+                if (diseaseObj.hasOwnProperty("remedyIngredients")) {
+                    diseaseObj.remedyIngredients.forEach((ingredient) => {
+                        const trimmedIngredient =
+                            trimIngredientName(ingredient);
+                        if (!details[trimmedIngredient]) {
+                            details[trimmedIngredient] = {
+                                count: 1,
+                                classes: { [classKey]: [diseaseKey] },
+                            };
+                        } else {
+                            details[trimmedIngredient].count++;
+                            if (!details[trimmedIngredient].classes[classKey]) {
+                                details[trimmedIngredient].classes[classKey] = [
+                                    diseaseKey,
+                                ];
+                            } else {
+                                details[trimmedIngredient].classes[
+                                    classKey
+                                ].push(diseaseKey);
+                            }
+                        }
+                    });
+                }
+            });
+        });
 
-    const sortedDetails = {};
-    detailsArray.forEach((item) => {
-      sortedDetails[item.name] = { ...item };
-    });
+        const detailsArray = Object.entries(details).map(([name, detail]) => ({
+            name,
+            ...detail,
+        }));
 
-    setIngredientDetails(sortedDetails);
-  }, [data]);
+        detailsArray.sort((a, b) => b.count - a.count);
 
-  return (
-    <><AllIngred ingredientDetails={ingredientDetails}/></>
-  )
-}
+        const sortedDetails = {};
+        detailsArray.forEach((item) => {
+            sortedDetails[item.name] = { ...item };
+        });
 
-export default Dashboard
+        setIngredientDetails(sortedDetails);
+    }, [data]);
+
+    return (
+        <>
+            <AllIngred ingredientDetails={ingredientDetails} />
+        </>
+    );
+};
+
+export default Dashboard;

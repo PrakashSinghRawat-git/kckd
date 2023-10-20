@@ -11,7 +11,7 @@ const Navigation = ({handleLogin}) => {
           font-family: 'Roboto', sans-serif;
         }
       </style>`}</Head>
-       <header2 className="fixed w-full z-50 bg-[#025a486c]">
+       <header2 className="fixed w-full z-50 bg-[#4438CA]">
 
         <nav className="py-2.5">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
